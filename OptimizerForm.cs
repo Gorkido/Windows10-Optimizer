@@ -49,11 +49,9 @@ namespace WindowsOptimizer
                 w.Write(r.ReadBytes((int)s.Length));
             }
         }
-
         // For Extracting Files..
 
-        //
-
+        // PowerShell
         private void Debloat()
         {
             string sPath = Path.GetTempPath(); //getting temp's path
@@ -333,8 +331,7 @@ namespace WindowsOptimizer
             };
             Process.Start(startInfo);
         }
-
-        //
+        // PowerShell
 
         private void Debloat_Windows_MouseDown(object sender, MouseEventArgs e)
         {
