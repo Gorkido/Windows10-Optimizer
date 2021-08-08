@@ -349,10 +349,10 @@ namespace WindowsOptimizer
                 Hide();
                 string sPath = Path.GetTempPath(); //getting temp's path
                 string dir2 = @"\Gorkido_Stuff\Debloat_Stuff";
-                File.Delete(sPath + @"\Gorkido_Stuff\Debloat.zip");
-                Directory.Delete(sPath + dir2, true);
+                File.Delete(sPath + @"\Gorkido_Stuff\Debloat.zip");// Deleting Debloat.zip.
+                Directory.Delete(sPath + dir2, true);// Deleting %temp%\Gorkido_Stuff\Debloat_Stuff
                 Thread.Sleep(1000);
-                Application.Exit();
+                Application.Exit();// Exit from the application.
             }
         }
 
@@ -419,7 +419,7 @@ namespace WindowsOptimizer
             Thread.Sleep(1500);
             if (!Directory.Exists(dir))
             {
-                Directory.CreateDirectory(sPath + dir2); //if \Debloat_Stuff doesn't exist it'll create the folder
+                Directory.CreateDirectory(sPath + dir2); //if \\Gorkido_Stuff\Debloat_Stuff doesn't exist it'll create the folder
             }
             Thread.Sleep(500);
             System.IO.Compression.ZipFile.ExtractToDirectory(sPath + zipPath, sPath + extractPath);
@@ -552,7 +552,7 @@ namespace WindowsOptimizer
             Thread.Sleep(1000);
             if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
-                Process.Start((sPath + dir + @"\BraveBrowserSetup.exe"));
+                Process.Start((sPath + dir + @"\BraveBrowserSetup.exe"));// If user clicks "yes" then it will open "BraveBrowserSetup.exe".
             }
         }
 
@@ -568,7 +568,7 @@ namespace WindowsOptimizer
             Thread.Sleep(1000);
             if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
-                Process.Start((sPath + dir + @"\LibreOffice_7.1.5_Win_x64.msi"));
+                Process.Start((sPath + dir + @"\LibreOffice_7.1.5_Win_x64.msi"));// If user clicks "yes" then it will open "LibreOffice_7.1.5_Win_x64.msi".
             }
         }
 
@@ -584,7 +584,7 @@ namespace WindowsOptimizer
             Thread.Sleep(1000);
             if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
-                Process.Start((sPath + dir + @"\readerdc_en_xa_crd_install.exe"));
+                Process.Start((sPath + dir + @"\readerdc_en_xa_crd_install.exe"));// If user clicks "yes" then it will open "readerdc_en_xa_crd_install.exe".
             }
         }
 
@@ -600,7 +600,7 @@ namespace WindowsOptimizer
             Thread.Sleep(1000);
             if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
-                Process.Start((sPath + dir + @"\ImageGlass_8.2.6.6_x64.msi"));
+                Process.Start((sPath + dir + @"\ImageGlass_8.2.6.6_x64.msi"));// If user clicks "yes" then it will open "ImageGlass_8.2.6.6_x64.msi".
             }
         }
 
@@ -616,7 +616,7 @@ namespace WindowsOptimizer
             Thread.Sleep(1000);
             if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
-                Process.Start((sPath + dir + @"\Firefox Installer.exe"));
+                Process.Start((sPath + dir + @"\Firefox Installer.exe"));// If user clicks "yes" then it will open "Firefox Installer.exe".
             }
         }
 
@@ -632,7 +632,7 @@ namespace WindowsOptimizer
             Thread.Sleep(1000);
             if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
-                Process.Start((sPath + dir + @"\vlc-3.0.16-win64.exe"));
+                Process.Start((sPath + dir + @"\vlc-3.0.16-win64.exe"));// If user clicks "yes" then it will open "vlc-3.0.16-win64.exe".
             }
         }
 
@@ -648,7 +648,7 @@ namespace WindowsOptimizer
             Thread.Sleep(1000);
             if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
-                Process.Start((sPath + dir + @"\7z1900-x64.exe"));
+                Process.Start((sPath + dir + @"\7z1900-x64.exe"));// If user clicks "yes" then it will open "7z1900-x64.exe".
             }
         }
 
@@ -664,7 +664,7 @@ namespace WindowsOptimizer
             Thread.Sleep(1000);
             if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
-                Process.Start((sPath + dir + @"\VSCodiumSetup-x64-1.59.0.exe"));
+                Process.Start((sPath + dir + @"\VSCodiumSetup-x64-1.59.0.exe"));// If user clicks "yes" then it will open "VSCodiumSetup-x64-1.59.0.exe".
             }
         }
 
@@ -680,7 +680,7 @@ namespace WindowsOptimizer
             Thread.Sleep(1000);
             if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
-                Process.Start((sPath + dir + @"\PowerToysSetup-0.43.0-x64.exe"));
+                Process.Start((sPath + dir + @"\PowerToysSetup-0.43.0-x64.exe"));// If user clicks "yes" then it will open "PowerToysSetup-0.43.0-x64.exe".
             }
         }
 
@@ -696,7 +696,7 @@ namespace WindowsOptimizer
             Thread.Sleep(1000);
             if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
-                Process.Start((sPath + dir + @"\gimp-2.10.24-setup-3.exe"));
+                Process.Start((sPath + dir + @"\gimp-2.10.24-setup-3.exe"));// If user clicks "yes" then it will open "gimp-2.10.24-setup-3.exe".
             }
         }
 
@@ -712,7 +712,7 @@ namespace WindowsOptimizer
             Thread.Sleep(1000);
             if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
-                Process.Start((sPath + dir + @"\Everything-1.4.1.1009.x64-Setup.exe"));
+                Process.Start((sPath + dir + @"\Everything-1.4.1.1009.x64-Setup.exe"));// If user clicks "yes" then it will open "Everything-1.4.1.1009.x64-Setup.exe".
             }
         }
 
@@ -728,7 +728,7 @@ namespace WindowsOptimizer
             Thread.Sleep(1000);
             if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
-                Process.Start((sPath + dir + @"\FileZilla_3.55.0_win64_sponsored-setup.exe"));
+                Process.Start((sPath + dir + @"\FileZilla_3.55.0_win64_sponsored-setup.exe"));// If user clicks "yes" then it will open "FileZilla_3.55.0_win64_sponsored-setup.exe".
             }
         }
 
@@ -744,7 +744,7 @@ namespace WindowsOptimizer
             Thread.Sleep(1000);
             if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
-                Process.Start((sPath + dir + @"\qbittorrent_4.3.7_x64_setup.exe"));
+                Process.Start((sPath + dir + @"\qbittorrent_4.3.7_x64_setup.exe"));// If user clicks "yes" then it will open "qbittorrent_4.3.7_x64_setup.exe".
             }
         }
 
@@ -760,7 +760,7 @@ namespace WindowsOptimizer
             Thread.Sleep(1000);
             if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
-                Process.Start((sPath + dir + @"\Flameshot-0.10.1-win64.msi"));
+                Process.Start((sPath + dir + @"\Flameshot-0.10.1-win64.msi"));// If user clicks "yes" then it will open "Flameshot-0.10.1-win64.msi".
             }
         }
 
@@ -776,7 +776,7 @@ namespace WindowsOptimizer
             Thread.Sleep(1000);
             if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
-                Process.Start((sPath + dir + @"\AutoHotkey_1.1.33.09_setup.exe"));
+                Process.Start((sPath + dir + @"\AutoHotkey_1.1.33.09_setup.exe"));// If user clicks "yes" then it will open "AutoHotkey_1.1.33.09_setup.exe".
             }
         }
 
@@ -792,13 +792,8 @@ namespace WindowsOptimizer
             Thread.Sleep(1000);
             if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
-                Process.Start((sPath + dir + @"\npp.8.1.2.Installer.x64.exe"));
+                Process.Start((sPath + dir + @"\npp.8.1.2.Installer.x64.exe")); // If user clicks "yes" then it will open "npp.8.1.2.Installer.x64.exe".
             }
-        }
-
-        private void Downlaods_Folder_MouseDown(object sender, KeyEventArgs e)
-        {
-
         }
 
         private void Application_Installer_MouseDown(object sender, MouseEventArgs e)
@@ -814,6 +809,8 @@ namespace WindowsOptimizer
             //
             Application_Installation_Panel.Hide();
         }
+
+        // Draggable Form
 
         private void DragLabel_MouseDown(object sender, MouseEventArgs e)
         {
@@ -859,13 +856,15 @@ namespace WindowsOptimizer
             mouseDown = false;
         }
 
+        // Draggable Form //
+
         private void Downlaods_Folder_MouseDown(object sender, MouseEventArgs e)
         {
             string dir = @"\Gorkido_Stuff\Gorkido_Downlaods";
             string sPath = Path.GetTempPath(); //getting temp's path
             if (!Directory.Exists(dir))
             {
-                Directory.CreateDirectory(sPath + dir); //if \Gorkido_Downloads doesn't exist it'll create the folder
+                Directory.CreateDirectory(sPath + dir); //if \Gorkido_Downlaods doesn't exist it'll create the folder
             }
             Thread.Sleep(500);
             Process.Start(sPath + dir);
