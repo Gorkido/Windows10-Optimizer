@@ -254,7 +254,7 @@ namespace WindowsOptimizer
             this.Dark_Mode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Dark_Mode.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Dark_Mode.ForeColor = System.Drawing.Color.Lime;
-            this.Dark_Mode.Location = new System.Drawing.Point(7, 6);
+            this.Dark_Mode.Location = new System.Drawing.Point(7, 7);
             this.Dark_Mode.Name = "Dark_Mode";
             this.Dark_Mode.Size = new System.Drawing.Size(267, 104);
             this.Dark_Mode.TabIndex = 171;
@@ -270,7 +270,7 @@ namespace WindowsOptimizer
             this.WinDefaultUpdates.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.WinDefaultUpdates.Font = new System.Drawing.Font("Arial", 12.5F, System.Drawing.FontStyle.Bold);
             this.WinDefaultUpdates.ForeColor = System.Drawing.Color.Lime;
-            this.WinDefaultUpdates.Location = new System.Drawing.Point(143, 245);
+            this.WinDefaultUpdates.Location = new System.Drawing.Point(143, 247);
             this.WinDefaultUpdates.Name = "WinDefaultUpdates";
             this.WinDefaultUpdates.Size = new System.Drawing.Size(267, 104);
             this.WinDefaultUpdates.TabIndex = 192;
@@ -286,7 +286,7 @@ namespace WindowsOptimizer
             this.Disable_Back_Apps.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Disable_Back_Apps.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
             this.Disable_Back_Apps.ForeColor = System.Drawing.Color.Lime;
-            this.Disable_Back_Apps.Location = new System.Drawing.Point(553, 6);
+            this.Disable_Back_Apps.Location = new System.Drawing.Point(553, 7);
             this.Disable_Back_Apps.Name = "Disable_Back_Apps";
             this.Disable_Back_Apps.Size = new System.Drawing.Size(267, 104);
             this.Disable_Back_Apps.TabIndex = 173;
@@ -302,7 +302,7 @@ namespace WindowsOptimizer
             this.Enable_Back_Apps.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Enable_Back_Apps.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
             this.Enable_Back_Apps.ForeColor = System.Drawing.Color.Lime;
-            this.Enable_Back_Apps.Location = new System.Drawing.Point(552, 117);
+            this.Enable_Back_Apps.Location = new System.Drawing.Point(552, 118);
             this.Enable_Back_Apps.Name = "Enable_Back_Apps";
             this.Enable_Back_Apps.Size = new System.Drawing.Size(267, 104);
             this.Enable_Back_Apps.TabIndex = 181;
@@ -318,7 +318,7 @@ namespace WindowsOptimizer
             this.Application_Installer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Application_Installer.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Application_Installer.ForeColor = System.Drawing.Color.Lime;
-            this.Application_Installer.Location = new System.Drawing.Point(826, 377);
+            this.Application_Installer.Location = new System.Drawing.Point(826, 379);
             this.Application_Installer.Name = "Application_Installer";
             this.Application_Installer.Size = new System.Drawing.Size(267, 104);
             this.Application_Installer.TabIndex = 186;
@@ -334,7 +334,7 @@ namespace WindowsOptimizer
             this.Other.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Other.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold);
             this.Other.ForeColor = System.Drawing.Color.Lime;
-            this.Other.Location = new System.Drawing.Point(827, 489);
+            this.Other.Location = new System.Drawing.Point(827, 490);
             this.Other.Name = "Other";
             this.Other.Size = new System.Drawing.Size(267, 104);
             this.Other.TabIndex = 178;
@@ -350,7 +350,7 @@ namespace WindowsOptimizer
             this.Light_Mode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Light_Mode.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Light_Mode.ForeColor = System.Drawing.Color.Lime;
-            this.Light_Mode.Location = new System.Drawing.Point(7, 117);
+            this.Light_Mode.Location = new System.Drawing.Point(7, 118);
             this.Light_Mode.Name = "Light_Mode";
             this.Light_Mode.Size = new System.Drawing.Size(267, 104);
             this.Light_Mode.TabIndex = 179;
@@ -366,7 +366,7 @@ namespace WindowsOptimizer
             this.Install_NET.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Install_NET.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Install_NET.ForeColor = System.Drawing.Color.Lime;
-            this.Install_NET.Location = new System.Drawing.Point(553, 377);
+            this.Install_NET.Location = new System.Drawing.Point(553, 379);
             this.Install_NET.Name = "Install_NET";
             this.Install_NET.Size = new System.Drawing.Size(267, 104);
             this.Install_NET.TabIndex = 185;
@@ -382,7 +382,7 @@ namespace WindowsOptimizer
             this.WinDefenderSecUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.WinDefenderSecUpdate.Font = new System.Drawing.Font("Arial", 12.5F, System.Drawing.FontStyle.Bold);
             this.WinDefenderSecUpdate.ForeColor = System.Drawing.Color.Lime;
-            this.WinDefenderSecUpdate.Location = new System.Drawing.Point(689, 245);
+            this.WinDefenderSecUpdate.Location = new System.Drawing.Point(689, 247);
             this.WinDefenderSecUpdate.Name = "WinDefenderSecUpdate";
             this.WinDefenderSecUpdate.Size = new System.Drawing.Size(267, 104);
             this.WinDefenderSecUpdate.TabIndex = 191;
@@ -398,7 +398,7 @@ namespace WindowsOptimizer
             this.Disable_Edge_PDF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Disable_Edge_PDF.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Disable_Edge_PDF.ForeColor = System.Drawing.Color.Lime;
-            this.Disable_Edge_PDF.Location = new System.Drawing.Point(279, 377);
+            this.Disable_Edge_PDF.Location = new System.Drawing.Point(279, 379);
             this.Disable_Edge_PDF.Name = "Disable_Edge_PDF";
             this.Disable_Edge_PDF.Size = new System.Drawing.Size(267, 104);
             this.Disable_Edge_PDF.TabIndex = 184;
@@ -414,7 +414,7 @@ namespace WindowsOptimizer
             this.Unpin_Start_Menu_Tile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Unpin_Start_Menu_Tile.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Unpin_Start_Menu_Tile.ForeColor = System.Drawing.Color.Lime;
-            this.Unpin_Start_Menu_Tile.Location = new System.Drawing.Point(280, 117);
+            this.Unpin_Start_Menu_Tile.Location = new System.Drawing.Point(280, 118);
             this.Unpin_Start_Menu_Tile.Name = "Unpin_Start_Menu_Tile";
             this.Unpin_Start_Menu_Tile.Size = new System.Drawing.Size(267, 104);
             this.Unpin_Start_Menu_Tile.TabIndex = 180;
@@ -430,7 +430,7 @@ namespace WindowsOptimizer
             this.Privacy_Protection.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Privacy_Protection.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Privacy_Protection.ForeColor = System.Drawing.Color.Lime;
-            this.Privacy_Protection.Location = new System.Drawing.Point(553, 490);
+            this.Privacy_Protection.Location = new System.Drawing.Point(553, 491);
             this.Privacy_Protection.Name = "Privacy_Protection";
             this.Privacy_Protection.Size = new System.Drawing.Size(267, 104);
             this.Privacy_Protection.TabIndex = 177;
@@ -446,7 +446,7 @@ namespace WindowsOptimizer
             this.Reduced_Visual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Reduced_Visual.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Reduced_Visual.ForeColor = System.Drawing.Color.Lime;
-            this.Reduced_Visual.Location = new System.Drawing.Point(6, 377);
+            this.Reduced_Visual.Location = new System.Drawing.Point(6, 379);
             this.Reduced_Visual.Name = "Reduced_Visual";
             this.Reduced_Visual.Size = new System.Drawing.Size(267, 104);
             this.Reduced_Visual.TabIndex = 183;
@@ -462,7 +462,7 @@ namespace WindowsOptimizer
             this.Enable_Edge_PDF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Enable_Edge_PDF.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Enable_Edge_PDF.ForeColor = System.Drawing.Color.Lime;
-            this.Enable_Edge_PDF.Location = new System.Drawing.Point(279, 490);
+            this.Enable_Edge_PDF.Location = new System.Drawing.Point(279, 491);
             this.Enable_Edge_PDF.Name = "Enable_Edge_PDF";
             this.Enable_Edge_PDF.Size = new System.Drawing.Size(267, 104);
             this.Enable_Edge_PDF.TabIndex = 176;
@@ -478,7 +478,7 @@ namespace WindowsOptimizer
             this.Uninstall_OneDrive.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Uninstall_OneDrive.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
             this.Uninstall_OneDrive.ForeColor = System.Drawing.Color.Lime;
-            this.Uninstall_OneDrive.Location = new System.Drawing.Point(280, 6);
+            this.Uninstall_OneDrive.Location = new System.Drawing.Point(280, 7);
             this.Uninstall_OneDrive.Name = "Uninstall_OneDrive";
             this.Uninstall_OneDrive.Size = new System.Drawing.Size(267, 104);
             this.Uninstall_OneDrive.TabIndex = 172;
@@ -494,7 +494,7 @@ namespace WindowsOptimizer
             this.Enable_Cortana.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Enable_Cortana.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Enable_Cortana.ForeColor = System.Drawing.Color.Lime;
-            this.Enable_Cortana.Location = new System.Drawing.Point(825, 117);
+            this.Enable_Cortana.Location = new System.Drawing.Point(825, 118);
             this.Enable_Cortana.Name = "Enable_Cortana";
             this.Enable_Cortana.Size = new System.Drawing.Size(267, 104);
             this.Enable_Cortana.TabIndex = 182;
@@ -510,7 +510,7 @@ namespace WindowsOptimizer
             this.Disable_Cortana.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Disable_Cortana.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Disable_Cortana.ForeColor = System.Drawing.Color.Lime;
-            this.Disable_Cortana.Location = new System.Drawing.Point(825, 6);
+            this.Disable_Cortana.Location = new System.Drawing.Point(825, 7);
             this.Disable_Cortana.Name = "Disable_Cortana";
             this.Disable_Cortana.Size = new System.Drawing.Size(267, 104);
             this.Disable_Cortana.TabIndex = 174;
@@ -526,7 +526,7 @@ namespace WindowsOptimizer
             this.Increased_Visual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Increased_Visual.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Increased_Visual.ForeColor = System.Drawing.Color.Lime;
-            this.Increased_Visual.Location = new System.Drawing.Point(6, 490);
+            this.Increased_Visual.Location = new System.Drawing.Point(6, 491);
             this.Increased_Visual.Name = "Increased_Visual";
             this.Increased_Visual.Size = new System.Drawing.Size(267, 104);
             this.Increased_Visual.TabIndex = 175;
@@ -541,7 +541,7 @@ namespace WindowsOptimizer
             this.Debloat_Windows.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Debloat_Windows.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Debloat_Windows.ForeColor = System.Drawing.Color.Lime;
-            this.Debloat_Windows.Location = new System.Drawing.Point(416, 245);
+            this.Debloat_Windows.Location = new System.Drawing.Point(416, 247);
             this.Debloat_Windows.Name = "Debloat_Windows";
             this.Debloat_Windows.Size = new System.Drawing.Size(267, 104);
             this.Debloat_Windows.TabIndex = 170;
