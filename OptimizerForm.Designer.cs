@@ -226,7 +226,7 @@ namespace WindowsOptimizer
             this.Main_Panel.Controls.Add(this.Debloat_Windows);
             this.Main_Panel.Cursor = System.Windows.Forms.Cursors.Default;
             this.Main_Panel.Font = new System.Drawing.Font("Symbol", 8.25F);
-            this.Main_Panel.Location = new System.Drawing.Point(0, 46);
+            this.Main_Panel.Location = new System.Drawing.Point(1, 46);
             this.Main_Panel.Name = "Main_Panel";
             this.Main_Panel.Size = new System.Drawing.Size(1100, 600);
             this.Main_Panel.TabIndex = 169;
@@ -592,7 +592,7 @@ namespace WindowsOptimizer
             this.Others_Menu.Controls.Add(this.button1);
             this.Others_Menu.Controls.Add(this.Others_Text);
             this.Others_Menu.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Others_Menu.Location = new System.Drawing.Point(-1, 46);
+            this.Others_Menu.Location = new System.Drawing.Point(0, 46);
             this.Others_Menu.Name = "Others_Menu";
             this.Others_Menu.Size = new System.Drawing.Size(1100, 600);
             this.Others_Menu.TabIndex = 193;
