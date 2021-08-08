@@ -36,3 +36,10 @@
 
 **Have Fun!!**
 
+# **Preview** #
+
+![image](https://user-images.githubusercontent.com/81165187/128636643-87b00149-7a85-495a-80ea-42decbfe5863.png)
+
+![image](https://user-images.githubusercontent.com/81165187/128636654-8aa1202f-02e0-4f19-bf5b-50d14a0735d8.png)
+
+![image](https://user-images.githubusercontent.com/81165187/128636668-31c862a3-6078-4ac6-9043-e096a1436424.png)
