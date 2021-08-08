@@ -4,6 +4,7 @@ using System.Drawing;
 using System.IO;
 using System.Net;
 using System.Reflection;
+using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows.Forms;
 
@@ -11,10 +12,28 @@ namespace WindowsOptimizer
 {
     public partial class OptimizerForm : System.Windows.Forms.Form
     {
+        [DllImport("user32")]
+        private static extern bool ReleaseCapture();
+
+        [DllImport("user32")]
+        private static extern int SendMessage(IntPtr hWnd, int Msg, int wp, int lp);
+
         private readonly WebClient webClient = new WebClient();
         public OptimizerForm()
         {
             InitializeComponent();
+        }
+        private bool mouseDown;
+        private Point lastLocation;
+
+        protected override void OnMouseDown(MouseEventArgs e)
+        {
+            base.OnMouseDown(e);
+            if (e.Button == MouseButtons.Left)
+            {
+                ReleaseCapture();
+                SendMessage(Handle, 161, 2, 0);
+            }
         }
 
         // For Extracting Files..
@@ -777,16 +796,9 @@ namespace WindowsOptimizer
             }
         }
 
-        private void Downlaods_Folder_KeyDown(object sender, KeyEventArgs e)
+        private void Downlaods_Folder_MouseDown(object sender, KeyEventArgs e)
         {
-            string dir = @"\Gorkido_Stuff\Gorkido_Downlaods";
-            string sPath = Path.GetTempPath(); //getting temp's path
-            if (!Directory.Exists(dir))
-            {
-                Directory.CreateDirectory(sPath + dir); //if \Gorkido_Downloads doesn't exist it'll create the folder
-            }
-            Thread.Sleep(500);
-            Process.Start(sPath + dir);
+
         }
 
         private void Application_Installer_MouseDown(object sender, MouseEventArgs e)
@@ -801,6 +813,62 @@ namespace WindowsOptimizer
             Main_Panel.Show();
             //
             Application_Installation_Panel.Hide();
+        }
+
+        private void DragLabel_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown = true;
+            lastLocation = e.Location;
+        }
+
+        private void DragLabel_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (mouseDown)
+            {
+                this.Location = new Point(
+                    (this.Location.X - lastLocation.X) + e.X, (this.Location.Y - lastLocation.Y) + e.Y);
+
+                this.Update();
+            }
+        }
+
+        private void DragLabel_MouseUp(object sender, MouseEventArgs e)
+        {
+            mouseDown = false;
+        }
+
+        private void BelowBar_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown = true;
+            lastLocation = e.Location;
+        }
+
+        private void BelowBar_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (mouseDown)
+            {
+                this.Location = new Point(
+                    (this.Location.X - lastLocation.X) + e.X, (this.Location.Y - lastLocation.Y) + e.Y);
+
+                this.Update();
+            }
+        }
+
+        private void BelowBar_MouseUp(object sender, MouseEventArgs e)
+        {
+            mouseDown = false;
+        }
+
+        private void Downlaods_Folder_MouseDown(object sender, MouseEventArgs e)
+        {
+            string dir = @"\Gorkido_Stuff\Gorkido_Downlaods";
+            string sPath = Path.GetTempPath(); //getting temp's path
+            if (!Directory.Exists(dir))
+            {
+                Directory.CreateDirectory(sPath + dir); //if \Gorkido_Downloads doesn't exist it'll create the folder
+            }
+            Thread.Sleep(500);
+            Process.Start(sPath + dir);
         }
     }
 }

@@ -83,7 +83,7 @@ namespace WindowsOptimizer
             this.Others_Text = new System.Windows.Forms.Label();
             this.Application_Installation_Panel = new System.Windows.Forms.Panel();
             this.AppBack = new System.Windows.Forms.Button();
-            this.Downlaods_Folder = new System.Windows.Forms.Button();
+            this.Downloads_Folder = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.Brave = new System.Windows.Forms.Button();
@@ -150,6 +150,9 @@ namespace WindowsOptimizer
             this.DragLabel.Name = "DragLabel";
             this.DragLabel.Size = new System.Drawing.Size(1094, 37);
             this.DragLabel.TabIndex = 166;
+            this.DragLabel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.DragLabel_MouseDown);
+            this.DragLabel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.DragLabel_MouseMove);
+            this.DragLabel.MouseUp += new System.Windows.Forms.MouseEventHandler(this.DragLabel_MouseUp);
             // 
             // DragLabeluseless
             // 
@@ -180,6 +183,9 @@ namespace WindowsOptimizer
             this.BelowBar.Size = new System.Drawing.Size(1096, 37);
             this.BelowBar.TabIndex = 168;
             this.BelowBar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.BelowBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BelowBar_MouseDown);
+            this.BelowBar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.BelowBar_MouseMove);
+            this.BelowBar.MouseUp += new System.Windows.Forms.MouseEventHandler(this.BelowBar_MouseUp);
             // 
             // DragPanelV3
             // 
@@ -229,20 +235,22 @@ namespace WindowsOptimizer
             // Left
             // 
             this.Left.BackColor = System.Drawing.Color.Lime;
+            this.Left.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
             this.Left.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Left.Location = new System.Drawing.Point(-1, -1);
+            this.Left.Location = new System.Drawing.Point(0, -1);
             this.Left.Name = "Left";
-            this.Left.Size = new System.Drawing.Size(3, 602);
+            this.Left.Size = new System.Drawing.Size(1, 603);
             this.Left.TabIndex = 194;
             this.Left.UseVisualStyleBackColor = false;
             // 
             // Right
             // 
             this.Right.BackColor = System.Drawing.Color.Lime;
+            this.Right.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
             this.Right.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Right.Location = new System.Drawing.Point(1098, -1);
             this.Right.Name = "Right";
-            this.Right.Size = new System.Drawing.Size(3, 602);
+            this.Right.Size = new System.Drawing.Size(1, 602);
             this.Right.TabIndex = 193;
             this.Right.UseVisualStyleBackColor = false;
             // 
@@ -584,7 +592,7 @@ namespace WindowsOptimizer
             this.Others_Menu.Controls.Add(this.button1);
             this.Others_Menu.Controls.Add(this.Others_Text);
             this.Others_Menu.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Others_Menu.Location = new System.Drawing.Point(0, 45);
+            this.Others_Menu.Location = new System.Drawing.Point(-1, 46);
             this.Others_Menu.Name = "Others_Menu";
             this.Others_Menu.Size = new System.Drawing.Size(1100, 600);
             this.Others_Menu.TabIndex = 193;
@@ -867,20 +875,22 @@ namespace WindowsOptimizer
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Lime;
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(-1, -1);
+            this.button3.Location = new System.Drawing.Point(0, -1);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(3, 602);
+            this.button3.Size = new System.Drawing.Size(1, 602);
             this.button3.TabIndex = 197;
             this.button3.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Lime;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(1098, -1);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(3, 602);
+            this.button1.Size = new System.Drawing.Size(1, 602);
             this.button1.TabIndex = 196;
             this.button1.UseVisualStyleBackColor = false;
             // 
@@ -900,7 +910,7 @@ namespace WindowsOptimizer
             // Application_Installation_Panel
             // 
             this.Application_Installation_Panel.Controls.Add(this.AppBack);
-            this.Application_Installation_Panel.Controls.Add(this.Downlaods_Folder);
+            this.Application_Installation_Panel.Controls.Add(this.Downloads_Folder);
             this.Application_Installation_Panel.Controls.Add(this.button2);
             this.Application_Installation_Panel.Controls.Add(this.button9);
             this.Application_Installation_Panel.Controls.Add(this.Brave);
@@ -942,39 +952,41 @@ namespace WindowsOptimizer
             this.AppBack.UseVisualStyleBackColor = true;
             this.AppBack.MouseDown += new System.Windows.Forms.MouseEventHandler(this.AppBack_MouseDown);
             // 
-            // Downlaods_Folder
+            // Downloads_Folder
             // 
-            this.Downlaods_Folder.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
-            this.Downlaods_Folder.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Downlaods_Folder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            this.Downlaods_Folder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Downlaods_Folder.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
-            this.Downlaods_Folder.ForeColor = System.Drawing.Color.Lime;
-            this.Downlaods_Folder.Location = new System.Drawing.Point(417, 248);
-            this.Downlaods_Folder.Name = "Downlaods_Folder";
-            this.Downlaods_Folder.Size = new System.Drawing.Size(267, 104);
-            this.Downlaods_Folder.TabIndex = 195;
-            this.Downlaods_Folder.Text = "Downloads Folder";
-            this.Downlaods_Folder.UseVisualStyleBackColor = true;
-            this.Downlaods_Folder.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Downlaods_Folder_KeyDown);
+            this.Downloads_Folder.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
+            this.Downloads_Folder.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Downloads_Folder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            this.Downloads_Folder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Downloads_Folder.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
+            this.Downloads_Folder.ForeColor = System.Drawing.Color.Lime;
+            this.Downloads_Folder.Location = new System.Drawing.Point(417, 248);
+            this.Downloads_Folder.Name = "Downloads_Folder";
+            this.Downloads_Folder.Size = new System.Drawing.Size(267, 104);
+            this.Downloads_Folder.TabIndex = 195;
+            this.Downloads_Folder.Text = "Download Folder";
+            this.Downloads_Folder.UseVisualStyleBackColor = true;
+            this.Downloads_Folder.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Downlaods_Folder_MouseDown);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Lime;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(-1, -1);
+            this.button2.Location = new System.Drawing.Point(0, -1);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(3, 602);
+            this.button2.Size = new System.Drawing.Size(1, 602);
             this.button2.TabIndex = 194;
             this.button2.UseVisualStyleBackColor = false;
             // 
             // button9
             // 
             this.button9.BackColor = System.Drawing.Color.Lime;
+            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Location = new System.Drawing.Point(1098, -1);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(3, 602);
+            this.button9.Size = new System.Drawing.Size(1, 602);
             this.button9.TabIndex = 193;
             this.button9.UseVisualStyleBackColor = false;
             // 
@@ -1342,7 +1354,7 @@ namespace WindowsOptimizer
         private System.Windows.Forms.Button VsCodium;
         private System.Windows.Forms.Button Zip;
         private System.Windows.Forms.Button EverythingSearch;
-        private System.Windows.Forms.Button Downlaods_Folder;
+        private System.Windows.Forms.Button Downloads_Folder;
         private System.Windows.Forms.Button AppBack;
     }
 }
