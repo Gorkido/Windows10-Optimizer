@@ -556,9 +556,9 @@ namespace WindowsOptimizer
             this.FormName.ForeColor = System.Drawing.Color.Lime;
             this.FormName.Location = new System.Drawing.Point(6, 6);
             this.FormName.Name = "FormName";
-            this.FormName.Size = new System.Drawing.Size(455, 33);
+            this.FormName.Size = new System.Drawing.Size(317, 33);
             this.FormName.TabIndex = 190;
-            this.FormName.Text = "Gorkido\'s Windows 10 Debloater";
+            this.FormName.Text = "Windows 10 Optimizer";
             // 
             // Others_Menu
             // 
