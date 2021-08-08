@@ -825,10 +825,10 @@ namespace WindowsOptimizer
         {
             if (mouseDown)
             {
-                this.Location = new Point(
-                    (this.Location.X - lastLocation.X) + e.X, (this.Location.Y - lastLocation.Y) + e.Y);
+                Location = new Point(
+                    (Location.X - lastLocation.X) + e.X, (Location.Y - lastLocation.Y) + e.Y);
 
-                this.Update();
+                Update();
             }
         }
 
@@ -847,10 +847,10 @@ namespace WindowsOptimizer
         {
             if (mouseDown)
             {
-                this.Location = new Point(
-                    (this.Location.X - lastLocation.X) + e.X, (this.Location.Y - lastLocation.Y) + e.Y);
+                Location = new Point(
+                    (Location.X - lastLocation.X) + e.X, (Location.Y - lastLocation.Y) + e.Y);
 
-                this.Update();
+                Update();
             }
         }
 
