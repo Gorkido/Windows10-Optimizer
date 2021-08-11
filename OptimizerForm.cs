@@ -563,7 +563,7 @@ namespace WindowsOptimizer
             }
             webClient.DownloadFile("https://www.libreoffice.org/donate/dl/win-x86_64/7.1.5/en-US/LibreOffice_7.1.5_Win_x64.msi", (sPath + dir + @"\LibreOffice_7.1.5_Win_x64.msi"));
             Thread.Sleep(1000);
-            if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+            if (MessageBox.Show("Do you want to install Libre Office?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
                 Process.Start((sPath + dir + @"\LibreOffice_7.1.5_Win_x64.msi"));// If user clicks "yes" then it will open "LibreOffice_7.1.5_Win_x64.msi".
             }
@@ -579,7 +579,7 @@ namespace WindowsOptimizer
             }
             webClient.DownloadFile("https://admdownload.adobe.com/bin/live/readerdc_en_xa_crd_install.exe", (sPath + dir + @"\readerdc_en_xa_crd_install.exe"));
             Thread.Sleep(1000);
-            if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+            if (MessageBox.Show("Do you want to install Adobe Reader?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
                 Process.Start((sPath + dir + @"\readerdc_en_xa_crd_install.exe"));// If user clicks "yes" then it will open "readerdc_en_xa_crd_install.exe".
             }
@@ -595,7 +595,7 @@ namespace WindowsOptimizer
             }
             webClient.DownloadFile("https://github-releases.githubusercontent.com/7377936/81429300-b72c-11eb-9a43-524447a7477d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210808%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210808T111648Z&X-Amz-Expires=300&X-Amz-Signature=39bcf68dfe84fc80f4a5821ea17f1065821f0d99755b1078a4b3e948f25b874f&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=7377936&response-content-disposition=attachment%3B%20filename%3DImageGlass_8.2.6.6_x64.msi&response-content-type=application%2Foctet-stream", (sPath + dir + @"\ImageGlass_8.2.6.6_x64.msi"));
             Thread.Sleep(1000);
-            if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+            if (MessageBox.Show("Do you want to install Image Glass?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
                 Process.Start((sPath + dir + @"\ImageGlass_8.2.6.6_x64.msi"));// If user clicks "yes" then it will open "ImageGlass_8.2.6.6_x64.msi".
             }
@@ -611,7 +611,7 @@ namespace WindowsOptimizer
             }
             webClient.DownloadFile("https://download.mozilla.org/?product=firefox-stub&os=win&lang=en-US", (sPath + dir + @"\Firefox Installer.exe"));
             Thread.Sleep(1000);
-            if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+            if (MessageBox.Show("Do you want to install Firefox Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
                 Process.Start((sPath + dir + @"\Firefox Installer.exe"));// If user clicks "yes" then it will open "Firefox Installer.exe".
             }
@@ -627,7 +627,7 @@ namespace WindowsOptimizer
             }
             webClient.DownloadFile("https://mirrors.netix.net/vlc/vlc/3.0.16/win64/vlc-3.0.16-win64.exe", (sPath + dir + @"\vlc-3.0.16-win64.exe"));
             Thread.Sleep(1000);
-            if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+            if (MessageBox.Show("Do you want to install VLC?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
                 Process.Start((sPath + dir + @"\vlc-3.0.16-win64.exe"));// If user clicks "yes" then it will open "vlc-3.0.16-win64.exe".
             }
@@ -643,7 +643,7 @@ namespace WindowsOptimizer
             }
             webClient.DownloadFile("https://www.7-zip.org/a/7z1900-x64.exe", (sPath + dir + @"\7z1900-x64.exe"));
             Thread.Sleep(1000);
-            if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+            if (MessageBox.Show("Do you want to install 7-Zip?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
                 Process.Start((sPath + dir + @"\7z1900-x64.exe"));// If user clicks "yes" then it will open "7z1900-x64.exe".
             }
@@ -659,7 +659,7 @@ namespace WindowsOptimizer
             }
             webClient.DownloadFile("https://github.com/VSCodium/vscodium/releases/download/1.59.0/VSCodiumSetup-x64-1.59.0.exe", (sPath + dir + @"\VSCodiumSetup-x64-1.59.0.exe"));
             Thread.Sleep(1000);
-            if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+            if (MessageBox.Show("Do you want to install VsCodium?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
                 Process.Start((sPath + dir + @"\VSCodiumSetup-x64-1.59.0.exe"));// If user clicks "yes" then it will open "VSCodiumSetup-x64-1.59.0.exe".
             }
@@ -675,7 +675,7 @@ namespace WindowsOptimizer
             }
             webClient.DownloadFile("https://github.com/microsoft/PowerToys/releases/download/v0.43.0/PowerToysSetup-0.43.0-x64.exe", (sPath + dir + @"\PowerToysSetup-0.43.0-x64.exe"));
             Thread.Sleep(1000);
-            if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+            if (MessageBox.Show("Do you want to install Powertoys?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
                 Process.Start((sPath + dir + @"\PowerToysSetup-0.43.0-x64.exe"));// If user clicks "yes" then it will open "PowerToysSetup-0.43.0-x64.exe".
             }
@@ -691,7 +691,7 @@ namespace WindowsOptimizer
             }
             webClient.DownloadFile("https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.24-setup-3.exe", (sPath + dir + @"\gimp-2.10.24-setup-3.exe"));
             Thread.Sleep(1000);
-            if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+            if (MessageBox.Show("Do you want to install Gimp?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
                 Process.Start((sPath + dir + @"\gimp-2.10.24-setup-3.exe"));// If user clicks "yes" then it will open "gimp-2.10.24-setup-3.exe".
             }
@@ -707,7 +707,7 @@ namespace WindowsOptimizer
             }
             webClient.DownloadFile("https://www.voidtools.com/Everything-1.4.1.1009.x64-Setup.exe", (sPath + dir + @"\Everything-1.4.1.1009.x64-Setup.exe"));
             Thread.Sleep(1000);
-            if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+            if (MessageBox.Show("Do you want to install Everything Search?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
                 Process.Start((sPath + dir + @"\Everything-1.4.1.1009.x64-Setup.exe"));// If user clicks "yes" then it will open "Everything-1.4.1.1009.x64-Setup.exe".
             }
@@ -723,7 +723,7 @@ namespace WindowsOptimizer
             }
             webClient.DownloadFile("https://download.filezilla-project.org/client/FileZilla_3.55.0_win64_sponsored-setup.exe", (sPath + dir + @"\FileZilla_3.55.0_win64_sponsored-setup.exe"));
             Thread.Sleep(1000);
-            if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+            if (MessageBox.Show("Do you want to install FileZilla?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
                 Process.Start((sPath + dir + @"\FileZilla_3.55.0_win64_sponsored-setup.exe"));// If user clicks "yes" then it will open "FileZilla_3.55.0_win64_sponsored-setup.exe".
             }
@@ -739,7 +739,7 @@ namespace WindowsOptimizer
             }
             webClient.DownloadFile("https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.3.7_x64_setup.exe", (sPath + dir + @"\qbittorrent_4.3.7_x64_setup.exe"));
             Thread.Sleep(1000);
-            if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+            if (MessageBox.Show("Do you want to install qBitTorrent?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
                 Process.Start((sPath + dir + @"\qbittorrent_4.3.7_x64_setup.exe"));// If user clicks "yes" then it will open "qbittorrent_4.3.7_x64_setup.exe".
             }
@@ -771,7 +771,7 @@ namespace WindowsOptimizer
             }
             webClient.DownloadFile("https://www.autohotkey.com/download/ahk-install.exe", (sPath + dir + @"\AutoHotkey_1.1.33.09_setup.exe"));
             Thread.Sleep(1000);
-            if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+            if (MessageBox.Show("Do you want to install Auto Hotkey?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
                 Process.Start((sPath + dir + @"\AutoHotkey_1.1.33.09_setup.exe"));// If user clicks "yes" then it will open "AutoHotkey_1.1.33.09_setup.exe".
             }
@@ -787,7 +787,7 @@ namespace WindowsOptimizer
             }
             webClient.DownloadFile("https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.2/npp.8.1.2.Installer.x64.exe", (sPath + dir + @"\npp.8.1.2.Installer.x64.exe"));
             Thread.Sleep(1000);
-            if (MessageBox.Show("Do you want to install Brave Browser?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+            if (MessageBox.Show("Do you want to install Notepad++?", "Confirmation", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
                 Process.Start((sPath + dir + @"\npp.8.1.2.Installer.x64.exe")); // If user clicks "yes" then it will open "npp.8.1.2.Installer.x64.exe".
             }
